@@ -20,8 +20,10 @@ const assertEqual = function(actual, expected) {
     console.log(letterCount);
     return letterCount;
   };
-  let sentence = "lighthouse in the house";
+  
+let sentence = "lighthouse in the house";
   let result = countLetters(sentence);
+  
   assertEqual(result.l, 1);
   assertEqual(result.i, 2);
   assertEqual(result.g, 1);
